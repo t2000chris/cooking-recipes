@@ -10,8 +10,16 @@ theme:
     - scheme: default
       primary: teal
       accent: orange
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
 extra_css:
   - styles/recipe.css
+  
 
 plugins:
   - search
