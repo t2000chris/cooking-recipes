@@ -2,8 +2,8 @@ name: Deploy MkDocs site
 
 on:
   push:
-    branches: [ main ]           # deploy when you push to main
-  workflow_dispatch:             # allow manual runs
+    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,27 +18,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mkdocs-material mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-tags-plugin
-
-      # (optional) cache pip to speed up subsequent runs
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          pip install mkdocs-material==9.6.20 \
+                      mkdocs-minify-plugin==0.8.0 \
+                      mkdocs-git-revision-date-localized-plugin==1.4.7
 
       - name: Build site
         run: mkdocs build --strict
