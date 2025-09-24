@@ -1,11 +1,8 @@
-# 🍳 我的食譜 My Recipes
+# 🍳 T2000's Cooking Recipes Collection
 
-> 家常 × 港日韓 × 甜點  
-> Material for MkDocs + 自訂 cooking 風格。
+歡迎來到我的食譜收藏！  
+這裡整理了來自香港、日本、韓國、中式及西式的各種食譜。  
+你可以透過 **導航欄** 或 **標籤頁** 快速找到想煮的菜式。
 
-- 使用方法：左側選單或右上角搜尋（支持中文關鍵字）。
-- 每個食譜都有 **材料**、**做法**、**標籤**。
-- 歡迎 PR / Issue 補充做法與照片。
-
-!!! tip "溫馨提示"
-    手機瀏覽可用右下角浮動目錄快速跳轉。
+- 使用 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 建立
+- GitHub Pages 自動部署

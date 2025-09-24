@@ -1,68 +1,26 @@
-site_name: My Recipes
-site_description: Home-cooking recipes, sauces, banchan & bakes
+site_name: T2000's Cooking Recipes Collection
 site_url: https://t2000chris.github.io/cooking-recipes/
-
+repo_url: https://github.com/t2000chris/cooking-recipes
 theme:
   name: material
   language: zh
-  features:
-    - navigation.expand
-    - navigation.top
-    - navigation.tracking
-    - content.code.copy
-    - toc.follow
-    - search.suggest
-    - search.highlight
-  icon:
-    logo: material/silverware-fork-knife
-    repo: material/github
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   palette:
     - scheme: default
       primary: teal
       accent: orange
-      toggle:
-        icon: material/weather-night
-        name: 切換至夜間模式
-    - scheme: slate
-      primary: teal
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: 切換至日間模式
-  font:
-    text: Inter
-    code: JetBrains Mono
-  favicon: assets/favicon.svg
-  logo: assets/logo.svg
-
-repo_url: https://github.com/t2000chris/cooking-recipes
-repo_name: cooking-recipes
-edit_uri: edit/main/docs/
+extra_css:
+  - styles/recipe.css
 
 plugins:
   - search
   - tags
-  - git-revision-date-localized:
-      enable_creation_date: true
   - minify:
       minify_html: true
-
-extra_css:
-  - styles/recipe.css
+  - git-revision-date-localized:
+      fallback_to_build_date: true
 
 nav:
   - 首頁: index.md
-
-  - Hong Kong:
-      - 西班牙紅蝦湯: hongkong/spanish-red-prawn-soup.md
-      - 咕嚕肉: hongkong/sweet-and-sour-pork.md
-
-  - Japanese:
-      - （示例待添加）: japanese/placeholder.md
-
-  - Korean:
-      - 韓式泡菜鍋: korean/kimchi-stew.md
-
-  - Desserts:
-      - 芒果布甸: desserts/mango-pudding.md
-      - 士多啤梨忌廉蛋糕: desserts/strawberry-shortcake.md
+  - 標籤: tags.md

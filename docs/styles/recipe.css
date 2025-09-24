@@ -1,19 +1,17 @@
-:root {
-  --md-primary-fg-color: #0f766e;  /* basil teal */
-  --md-accent-fg-color:  #ea580c;  /* tomato orange */
+/* Custom cooking theme tweaks */
+.md-typeset h1, .md-typeset h2 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
 }
 
 .recipe-card {
-  border-radius: 14px;
-  padding: 1rem 1.1rem;
-  background: var(--md-code-bg-color);
-  box-shadow: 0 1px 0 rgba(0,0,0,.06);
-  margin: .6rem 0 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  background: #fff8f0;
+  margin: 1rem 0;
 }
 
-.recipe-split {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
+.recipe-card h2 {
+  color: #e07a5f;
 }
-@media (max-width: 880px){ .recipe-split { grid-template-columns: 1fr; } }
