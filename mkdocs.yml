@@ -3,7 +3,7 @@ site_url: https://t2000chris.github.io/cooking-recipes/
 repo_url: https://github.com/t2000chris/cooking-recipes
 theme:
   name: material
-  language: zh
+  language: zh-TW
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   palette:
