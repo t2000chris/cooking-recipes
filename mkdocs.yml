@@ -15,12 +15,11 @@ extra_css:
 
 plugins:
   - search
+  - awesome-pages
   - tags
   - minify:
       minify_html: true
   - git-revision-date-localized:
       fallback_to_build_date: true
 
-nav:
-  - 首頁: index.md
-  - 標籤: tags.md
+
