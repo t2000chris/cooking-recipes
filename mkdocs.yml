@@ -1,6 +1,6 @@
 site_name: My Recipes
 site_description: Home-cooking recipes, sauces, banchan & bakes
-site_url: https://<your-username>.github.io/recipes-project
+site_url: https://t2000chris.github.io/cooking-recipes/
 
 theme:
   name: material
@@ -35,8 +35,8 @@ theme:
   favicon: assets/favicon.svg
   logo: assets/logo.svg
 
-repo_url: https://github.com/<your-username>/recipes-project
-repo_name: recipes-project
+repo_url: https://github.com/t2000chris/cooking-recipes
+repo_name: cooking-recipes
 edit_uri: edit/main/docs/
 
 plugins:
