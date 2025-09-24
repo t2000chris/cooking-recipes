@@ -1,7 +1,7 @@
 ---
 tags:
   - hongkong
-  - dimsum
+  - dim-sum
   - cake
 ---
 
