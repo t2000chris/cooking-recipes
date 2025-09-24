@@ -1,5 +1,5 @@
 # 🍳 T2000's Cooking Recipes Collection
 
-歡迎來到我的食譜收藏！  
+ 歡迎來到T2000食譜Collection
 
 
