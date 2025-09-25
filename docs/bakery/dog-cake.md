@@ -1,31 +1,28 @@
+---
+title: 狗狗蛋糕
+tags: [bakery, cake, dessert, bake, dog-friendly, special]
+---
+
 # 狗狗蛋糕
 
-![dog-cake.jpg](../images/dog-cake.jpg){ width="600" }
+![狗狗蛋糕](../images/dog-cake.jpg){ width=600 }
 
 ## 材料
-（8 吋圓模）
 
+### 8 吋圓形蛋糕
 - 麵粉 96g  
-- Baking soda 2.4g  
+- 梳打粉 2.4g  
 - 植物油 20g  
 - 花生醬 52g  
 - 南瓜蓉 88g  
 - 雞蛋 1 隻  
 
----
-
 ## 做法
-1. 預熱焗爐 170°C。  
-2. 將所有材料放入大碗攪拌均勻。  
-3. 倒入已墊牛油紙的 8 吋圓模。  
-4. 放入焗爐烘焗至熟透，約 25–30 分鐘。  
-5. 放涼後即可給狗狗食用。  
 
----
+1. 將所有材料混合均勻。  
+2. 倒入蛋糕模中。  
+3. 焗爐預熱至 170℃，焗至熟透（約 25–30 分鐘，可用竹籤測試）。  
+4. 放涼後即可食用。  
 
-## 料理小分類
-- 烘焙  
-- 狗狗甜品  
-
-## 來源
-[YouTube 教學影片](https://www.youtube.com/watch?v=67ZK4EjZMNU)
+## 參考來源
+[YouTube 教學](https://www.youtube.com/watch?v=67ZK4EjZMNU)
