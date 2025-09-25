@@ -5,12 +5,11 @@ theme:
   name: material
   language: en
   features:
-    - navigation.instant
-    - navigation.sections
-    - navigation.expand
+    - navigation.tabs          # top tabs for top-level sections (mobile = swipeable)
+    - navigation.sections      # group pages within a section
+    - navigation.prune         # show only the current section in the sidebar (lighter on mobile)
+    - navigation.indexes       # make folder index.md the landing for each tab/section
     - navigation.top
-    - content.code.copy
-    - content.action.edit
     - search.suggest
     - search.highlight
     - toc.follow
