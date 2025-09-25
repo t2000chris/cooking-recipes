@@ -1,33 +1,60 @@
-site_name: T2000's Cooking Recipes Collection
+site_name: "T2000's Cooking Recipes Collection"
 site_url: https://t2000chris.github.io/cooking-recipes/
 repo_url: https://github.com/t2000chris/cooking-recipes
 theme:
   name: material
   language: en
-  logo: assets/logo.png
-  favicon: assets/favicon.svg
-  palette:
-    - scheme: default
-      primary: teal
-      accent: orange
   features:
     - navigation.instant
-    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
     - navigation.top
     - content.code.copy
+    - content.action.edit
     - search.suggest
     - search.highlight
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+  font:
+    text: Noto Sans
+    code: JetBrains Mono
+  icon:
+    logo: material/silverware-fork-knife
+    repo: fontawesome/brands/github
 extra_css:
-  - styles/recipe.css
-  
-
+  - assets/styles/recipes.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/t2000chris/cooking-recipes
+      name: GitHub
 plugins:
-  - search
-  - awesome-pages
+  - search:
+      lang: [en, zh]
+      separator: '[\s\-。，、；；：：]+'
   - tags
+  - awesome-pages
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      fallback_to_build_date: true
-
+      enable_creation_date: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
 

@@ -5,6 +5,12 @@ tags: [hong-kong, main, pork, roast, sweet, classic]
 
 ![叉燒](../images/char-siu.jpg){ width=600 }
 
+<div class="recipe-meta">
+  <span class="recipe-chip">🍽️ 份量：4</span>
+  <span class="recipe-chip">⏱️ 時間：前一晚醃 + 焗 25–30 分</span>
+  <span class="recipe-chip">🧑‍🍳 難度：⭐⭐</span>
+</div>
+
 ## 材料
 
 ### 醃料
@@ -20,6 +26,12 @@ tags: [hong-kong, main, pork, roast, sweet, classic]
 ### 蜜汁
 - 麥芽糖 60g  
 - 醃汁 30g  
+
+!!! tip "蜜汁比例"
+    麥芽糖以**1：2**比例加熱化開，刷面更光澤。
+
+!!! note "焗爐差異"
+    家用焗爐火力差異大，必要時最後 3–5 分鐘**轉上火**上色。
 
 ## 做法
 1. 把梅頭肉切得大小平均一些。  
