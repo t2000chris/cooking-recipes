@@ -30,10 +30,8 @@ ol.method li { margin: .45rem 0; }
   a[href]:after { content: " (" attr(href) ")"; font-size: .8em; color: #555; }
 }
 
-/* Wider left nav for long Chinese titles */
-.md-sidebar--primary {
-  width: 320px;
-}
 @media (min-width: 76.25em) {
-  .md-sidebar--primary { width: 340px; }
+  .md-sidebar--primary {
+    width: 320px;
+  }
 }
