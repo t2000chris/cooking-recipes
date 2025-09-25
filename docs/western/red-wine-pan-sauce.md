@@ -1,26 +1,29 @@
 ---
-tags:
-  - western
-  - sauce
+title: Red Wine Pan Sauce
+tags: [western, sauce, steak, pan-sauce, quick, dinner]
 ---
 
-# Red Wine Pan Sauce
+![Red Wine Pan Sauce](../images/red-wine-pan-sauce.jpg){ width=600 }
 
-## 材料
-（此食譜份量可自行調整）
-- 紅酒 或 白酒
-- shallot (切碎)
-- 黃糖 或 白糖
+> **註：** 此配方只列出材料種類，不指定分量；請按鍋中汁量與口味調整。
+
+## 材料（不標份量）
+- 煎完牛排後的鍋底油汁（去多餘油）
+- 紅蔥頭（切碎）
+- 紅酒（或白酒）
+- 黃糖或白糖
 - 雞湯
-- 牛油
-- rosemary 碎
+- 牛油（收汁乳化）
+- 迷迭香（切碎）
 - 黑椒
-- 黑醋
+- 黑醋（可選）
 
 ## 做法
-1. 煎完扒，倒走多餘嘅油。
-2. 炒香切碎咗嘅shallot。
-3. 加入紅酒／白酒，煮至少少杰（syrup 狀）。
-4. 加入黃糖（白糖都得）同雞湯。
-5. 最後加入牛油（要多啲），用打蛋器打勻，煮至杰。
-6. 加入rosemary碎、黑椒、黑醋。
+1. 煎完牛扒，倒走多餘油，留鍋底油汁。  
+2. 下紅蔥頭炒香。  
+3. 加入紅／白酒收至糖漿狀。  
+4. 加黃糖與雞湯，略收。  
+5. 收汁至濃滑，離火加入牛油，用打蛋器乳化。  
+6. 以迷迭香、黑椒與少許黑醋調味。  
+
+[YouTube - Pan Sauce](https://www.youtube.com/watch?v=z8Y88GS7TSg&t=429s)
