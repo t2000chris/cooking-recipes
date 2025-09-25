@@ -4,7 +4,7 @@ repo_url: https://github.com/t2000chris/cooking-recipes
 theme:
   name: material
   language: en
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.svg
   palette:
     - scheme: default
