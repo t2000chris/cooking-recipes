@@ -1,23 +1,22 @@
-site_name: "T2000's Cooking Recipes Collection"
+site_name: "T2000食譜Collection"
 site_url: https://t2000chris.github.io/cooking-recipes/
-repo_url: https://github.com/t2000chris/cooking-recipes
 theme:
   name: material
   language: en
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.prune
-    - navigation.indexes
-    - navigation.top
-    - navigation.footer
+    - navigation.tabs            # ❌ turn OFF tabs so sections expand instead of navigating
+    - navigation.tabs.sticky
+    # - navigation.sections          # ✅ show folders as groups
+    # - navigation.prune             # ✅ (optional) only show the current section in the sidebar
+    # - navigation.indexes         # ❌ keep OFF so section labels aren't links
+
     - search.suggest
     - search.highlight
     - toc.follow
   palette:
     - scheme: default
-      primary: deep orange
-      accent: amber
+      primary: teal
+      accent: dark orange
   font:
     text: Noto Sans
     code: JetBrains Mono
@@ -26,6 +25,7 @@ theme:
     repo: fontawesome/brands/github
 extra_css:
   - assets/styles/recipes.css
+  #- assets/styles/override.css
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -39,8 +39,6 @@ plugins:
   - awesome-pages
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
 markdown_extensions:
   - admonition
   - attr_list
@@ -57,4 +55,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.snippets
+
+
 

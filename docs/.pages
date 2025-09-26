@@ -6,4 +6,4 @@ arrange:
   - western
   - bakery
   - tags.md
-collapse_single_pages: false
+collapes: true
