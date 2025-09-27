@@ -37,6 +37,12 @@ jobs:
         with:
           path: site
 
+      - name: Generate recipe JSON into docs/api
+        run: |
+          python scripts/build_recipe_json.py
+          echo "Generated JSON files:"
+          find docs/api -type f -name '*.json' | head -n 50 || true
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
