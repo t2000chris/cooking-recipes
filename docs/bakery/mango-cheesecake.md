@@ -23,7 +23,13 @@ tags: [bakery, cake, dessert, fridge, cheese, fruit]
 - Gelatin 5g  
 - 檸檬汁 1 小匙  
 - 鮮忌廉 (Whipping cream) 149g  
-- 芒果蓉 60g  
+- 芒果蓉 60g
+
+### 芒果啫喱層
+- Gelatin 2g 
+- 砂糖 10g  
+- 芒果蓉 40g  
+- 水 30g  
 
 ### 餡料 (400g 版本)
 - Cream Cheese 400g  
@@ -36,10 +42,10 @@ tags: [bakery, cake, dessert, fridge, cheese, fruit]
 - 芒果蓉 93.8g  
 
 ### 芒果啫喱層
-- Gelatin 2–4g （視乎用量版本）  
-- 砂糖 10–20g  
-- 芒果蓉 40–80g  
-- 水 30–60g  
+- Gelatin 4g 
+- 砂糖 20g  
+- 芒果蓉 80g  
+- 水 60g  
 
 ## 做法
 
